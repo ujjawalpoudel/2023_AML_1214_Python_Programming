@@ -1,4 +1,4 @@
-""" Clas work in list operations
+""" Class work in list operations
 """
 
 ujjawal_details = ["ujjawal poudel", 26]
