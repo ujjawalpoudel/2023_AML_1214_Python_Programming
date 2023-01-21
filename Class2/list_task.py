@@ -1,5 +1,8 @@
 """ Class work in list operations
 """
 
-ujjawal_details = ["ujjawal poudel", 26]
-print(ujjawal_details[1], "=", ujjawal_details[0])
+name = ["ujjawal", "joshep "]
+age = [26, 25]
+
+print(name[0], "=", age[0])
+print(name[1], "=", age[1])
