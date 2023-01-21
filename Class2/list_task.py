@@ -20,6 +20,7 @@ number.insert(4, 55)
 print(number)
 
 # * Pop functions:- remove specific values from specific index
+# * we can use pop functions to remove specific values from specific index
 number.pop(4)
 print(number)
 
@@ -27,6 +28,9 @@ print(number)
 name = ["a", "b", "c", "z", "d", "e"]
 name.reverse()
 print(name)
+
+# * remove function :- give specific value and it delete from given list
+name.remove("z")
 
 # * sort methods in list operations
 name.sort()
