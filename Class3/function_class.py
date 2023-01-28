@@ -57,3 +57,19 @@ addNumbers()
 # * Print global variable after function call
 print(f"GLobal First number is {first_num}")
 print(f"Gloabl Second number is {second_num}\n")
+
+
+# * Function with parameter
+def addFourNumber(a, b, c, d):
+    print(f"Addition of {a}, {b}, {c}, {d} is {a + b + c + d}\n")
+
+
+addFourNumber(2, 4, 6, 8)
+
+# * Function with passing argument and return value
+def multiply(a, b):
+    return a * b
+
+
+output = multiply(2, 4)
+print("Output after multiply is : ", output)
