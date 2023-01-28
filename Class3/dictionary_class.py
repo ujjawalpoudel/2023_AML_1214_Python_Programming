@@ -25,6 +25,10 @@ print(class_dict)
 class_dict.update({"milage": "20"})
 print(class_dict)
 
+# * Next method to add key and value in dictionary
+class_dict["colour"] = "Red"
+print(class_dict)
+
 # * Delete particular key value pair from dictionary
 class_dict.pop("bus")
 print(class_dict)
