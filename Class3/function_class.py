@@ -50,6 +50,7 @@ def addNumbers():
     print(f"Local First number is {first_num}")
     print(f"Local Second number is {second_num}\n")
 
+
 # * Call function
 addNumbers()
 
