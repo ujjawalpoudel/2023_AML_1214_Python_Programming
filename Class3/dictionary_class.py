@@ -20,3 +20,15 @@ print(class_dict.values())
 # * Replace particular value of class_dict
 class_dict["bus"] = "Honda"
 print(class_dict)
+
+# * Update key and value in dictionary
+class_dict.update({"milage": "20"})
+print(class_dict)
+
+# * Delete particular key value pair from dictionary
+class_dict.pop("bus")
+print(class_dict)
+
+# * Delete all key value pairs from dictionary
+class_dict.clear()
+print(class_dict)
