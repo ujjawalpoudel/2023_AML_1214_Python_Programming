@@ -37,6 +37,10 @@ print(class_dict)
 for key, value in class_dict.items():
     print(key, value)
 
+# * Copy dictionary
+copy_class_dict = class_dict.copy()
+print(copy_class_dict)
+
 # * Delete all key value pairs from dictionary
 class_dict.clear()
 print(class_dict)
