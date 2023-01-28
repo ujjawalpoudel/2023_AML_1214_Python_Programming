@@ -33,6 +33,10 @@ print(class_dict)
 class_dict.pop("bus")
 print(class_dict)
 
+# * Print all keys of class_dict using for loop
+for key, value in class_dict.items():
+    print(key, value)
+
 # * Delete all key value pairs from dictionary
 class_dict.clear()
 print(class_dict)
